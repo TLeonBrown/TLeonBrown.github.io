@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9756811c747c73b4b4a286aa52c98edf",
+    "revision": "9f9d471b99992a0bf0fd1d0c8f57c110",
     "url": "/index.html"
   },
   {
-    "revision": "c9ad44a1c834e26f65d4",
-    "url": "/static/css/main.f5497eb8.chunk.css"
+    "revision": "79940816a6aa5ca10752",
+    "url": "/static/css/main.956fad23.chunk.css"
   },
   {
     "revision": "3cf4b751ab73f4526c1b",
@@ -16,19 +16,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.67f14fdf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c9ad44a1c834e26f65d4",
-    "url": "/static/js/main.22e8070a.chunk.js"
+    "revision": "79940816a6aa5ca10752",
+    "url": "/static/js/main.aeffb41e.chunk.js"
   },
   {
     "revision": "f52ba179432c3be28857",
     "url": "/static/js/runtime-main.554504a0.js"
   },
   {
-    "revision": "55289044e5f3ca97244a976a8b11ef58",
-    "url": "/static/media/resume.55289044.pdf"
+    "revision": "db8ffe1de497eeb29923fa8d49a83ac3",
+    "url": "/static/media/College Resume 2020.db8ffe1d.pdf"
   },
   {
-    "revision": "b00674c220dd64c19f0b1d04f8d8572d",
-    "url": "/static/media/yyang.b00674c2.png"
+    "revision": "2edde864156d38ad2f49fe170521aa9d",
+    "url": "/static/media/tian.2edde864.jpg"
   }
 ]);
