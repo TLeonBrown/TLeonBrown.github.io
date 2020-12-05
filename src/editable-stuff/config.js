@@ -6,18 +6,18 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f",
-  firstName: "Yang",
-  middleName: "",
-  lastName: "Yang",
+  firstName: "Tian",
+  middleName: "L",
+  lastName: "Brown",
   message: "Senior at Stony Brook University",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/yang573",
+      url: "https://github.com/TLeonBrown",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/yang573/",
+      url: "https://www.linkedin.com/in/tian-brown-376051173/",
     },
   ],
 };
@@ -37,16 +37,15 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/yyang.png"),
+  imageLink: require("../editable-stuff/tian.jpg"),
   imageSize: 375,
   message:
-    " I am a senior studying computer science and sociology. \
-    Many of my past projects have focused on backend and cloud services, \
-    but I have also dabbled with some full-stack projects. \
-    I am most passionate about the cloud and systems, \
-    and I hope to land a career in one of these fields. \
-    I'm currently assisting a lab with designing benchmarks for cloud-native storage.",
-  resume: require("../editable-stuff/resume.pdf"),
+    " I'm currently a senior studying computer science and digital art! \
+    I am most interested in data visualization, user interface design, and \
+    front-end development. \
+    Outside of school, I love to make video games, compete in game tournaments, \
+    running, and listening to rock music.",
+  resume: require("../editable-stuff/College Resume 2020.pdf"),
 };
 
 // PROJECTS SECTION
@@ -59,11 +58,11 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "yang573", //i.e."johnDoe12Gh"
+  gitHubUsername: "TLeonBrown", //i.e."johnDoe12Gh"
   reposLength: 0,
   specificRepos: [
-    "yang573/yang573.github.io", "yang573/MYSpace-Deployment",
-    "yang573/club-membership-py", "alexfchin/roombalistic"
+    "TLeonBrown/CSE-495-496-Research-Project", "TLeonBrown/CSE-332-Dashboard-Project",
+    "TLeonBrown/GDstep", "CSE416-NLP/waveback"
   ],
 };
 
@@ -92,12 +91,12 @@ const leadership = {
     "Generic leadership message.",
   images: [
     { 
-      img: require("../editable-stuff/yyang.png"), 
+      img: require("../editable-stuff/tian.jpg"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/yyang.png"), 
+      img: require("../editable-stuff/tian.jpg"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -113,17 +112,14 @@ const skills = {
   show: true,
   heading: "Skills",
   skills: [
-    "C",
-    "Java",
-    "C#",
-    "Python",
     "JavaScript",
+    "MERN Stack",
+    "Python",
+    "PyQtGraph",
     "HTML/CSS",
-    "SQL",
-    "NoSQL",
-    "Elasticsearch",
-    "Ceph",
-    "Flask"
+    "Java",
+    "C",
+    "Adobe Creative Cloud Suite"
   ]
 };
 
@@ -136,15 +132,10 @@ const getInTouch = {
 };
 
 const contactInfo = {
-  email: "yangyang1998@gmail.com",
-  location: "Stony Brook, NY",
-  locationLink: "https://www.openstreetmap.org/#map=12/40.9174/-73.1247",
+  email: "tianbrown@gmail.com",
+  location: "New Rochelle, NY",
+  locationLink: "https://www.openstreetmap.org/#map=12/40.9301/-73.8168",
   occupation: "Student at Stony Brook University"
 }
-
-// Blog SECTION
-// const blog = {
-//   show: false,
-// };
 
 export { navBar, mainBody, about, repos, manualProjects, skills, leadership, getInTouch, contactInfo };

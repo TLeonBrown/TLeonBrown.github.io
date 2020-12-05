@@ -1,13 +1,13 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template hosted with GitHub Pages.",
-  "homepage": "http://yang573.github.io",
+  "homepage": "https://tleonbrown.github.io/",
   "version": "2.0.0",
   "private": true,
   "author": {
-    "name": "Yang Yang",
-    "email": "yangyang1998@gmail.com",
-    "url": "https://github.com/yang573"
+    "name": "Tian Brown",
+    "email": "tianbrown@gmail.com",
+    "url": "https://github.com/TLeonBrown"
   },
   "dependencies": {
     "axios": "^0.19.2",
