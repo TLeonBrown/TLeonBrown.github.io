@@ -5,9 +5,9 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f",
+  gradientColors: "#742e12, #d28a2d, #bfbda2, #2f6c68",
   firstName: "Tian",
-  middleName: "L",
+  middleName: "",
   lastName: "Brown",
   message: "Senior at Stony Brook University",
   icons: [
@@ -37,14 +37,14 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/tian.jpg"),
+  imageLink: require("../editable-stuff/meirl.jpg"),
   imageSize: 375,
   message:
     " I'm currently a senior studying computer science and digital art! \
     I am most interested in data visualization, user interface design, and \
     front-end development. \
     Outside of school, I love to make video games, compete in game tournaments, \
-    running, and listening to rock music.",
+    running, and listening to rock music!",
   resume: require("../editable-stuff/College Resume 2020.pdf"),
 };
 
@@ -61,49 +61,63 @@ const repos = {
   gitHubUsername: "TLeonBrown", //i.e."johnDoe12Gh"
   reposLength: 0,
   specificRepos: [
-    "TLeonBrown/CSE-495-496-Research-Project", "TLeonBrown/CSE-332-Dashboard-Project",
-    "TLeonBrown/GDstep", "CSE416-NLP/waveback"
   ],
 };
 
 const manualProjects = [
   {
-    name: "Picking a Keyed Padlock",
-    description: "Practicing user instruction write-ups through locksport.",
-    url: "https://docs.google.com/document/d/1RI36PJYbEzbTaWqkow3LzRTZ0Pj_-GGmcAgrRUnPyUs/edit?usp=sharing",
-    classId: "CSE 300",
-    date: "November 2020"
+    name: "Waveback Music Player",
+    description: "A fully fledged music player/playlist sharing application, built with the MERN stack and the Spotify API for music playing.",
+    url: "https://github.com/CSE416-NLP/waveback",
+    classId: "CSE 416",
+    date: "Fall 2020"
   },
   {
-    name: "SB Engaged, Reimagined",
-    description: "Ideas for improving SBU club platforms to increase student participation.",
-    url: "https://drive.google.com/file/d/12IXf0dkHxbQvB_d-Yp_ERpdY_qj5J1_7/view?usp=sharing",
-    classId: "CSE 300",
-    date: "November 2020"
-  }
+    name: "New York State Census Data Dashboard",
+    description: "An interactive dashboard for analyzing many different statistics and demographics, across each county in New York State.",
+    url: "https://github.com/TLeonBrown/CSE-495-496-Research-Project",
+    classId: "CSE 495",
+    date: "Fall 2020 - Spring 2021"
+  },
+  {
+    name: "IMDb Movie Data Dashboard",
+    description: "A multifaceted dashboard for visualizing IMDb movie statistics over the span of ten years.",
+    url: "https://github.com/TLeonBrown/CSE-332-Dashboard-Project",
+    classId: "CSE 332",
+    date: "Fall 2019"
+  },
+  {
+    name: "GDStep",
+    description: "A rhythm-based music game, created from scratch with Python in the Godot Engine.",
+    url: "https://github.com/TLeonBrown/GDstep",
+    classId: "Personal Project",
+    date: "Summer 2020"
+  },
 ];
 
-// Leadership SECTION
+// LEADERSHIP SECTION
 const leadership = {
-  show: false, // Not enabled
-  heading: "Leadership",
+  show: false, 
+  heading: "Leadership & Extracurriculars",
   message:
-    "Generic leadership message.",
+    "Here are several of the extracurriculars I have participated in on the Stony Brook campus!.",
   images: [
     { 
-      img: require("../editable-stuff/tian.jpg"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/Tabletop Club Logo.png"), 
+      label: "SBU Tabletop Club - President", 
+      paragraph: "Since August 2018, I have served as the President of the Tabletop Club, \
+      Stony Brook's premier club for playing board games and tabletop RPGs!" 
     },
     { 
-      img: require("../editable-stuff/tian.jpg"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/meirl.jpg"), 
+      label: "Stony Brook Computer Science Honors Program", 
+      paragraph: "I have been part of the Computer Science Honors program since my arrival at \
+      Stony Brook in Fall 2017, and I will be graduating with honors in Spring 2021!" 
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
+    width:"425",
+    height:"600"
   }
 };
 
@@ -114,9 +128,9 @@ const skills = {
   skills: [
     "JavaScript",
     "MERN Stack",
-    "Python",
-    "PyQtGraph",
     "HTML/CSS",
+    "D3",
+    "Python & PyQtGraph",
     "Java",
     "C",
     "Adobe Creative Cloud Suite"
@@ -125,14 +139,15 @@ const skills = {
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: false, // Not enabled
+  show: true, // Not enabled
   heading: "Get In Touch",
   message:
-    "Questions? Comments? Concerns? Send me an email"
+    "Feel free to reach out to me!"
 };
 
 const contactInfo = {
   email: "tianbrown@gmail.com",
+  phone: "+1 (914) - 233 - 4840",
   location: "New Rochelle, NY",
   locationLink: "https://www.openstreetmap.org/#map=12/40.9301/-73.8168",
   occupation: "Student at Stony Brook University"

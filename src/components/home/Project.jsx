@@ -95,6 +95,8 @@ const Project = ({ heading, username, length, specfic, manualProjects }) => {
               ))}
         </Row>
       </Container>
+      <h3 style={{textAlign: "center"}}>See more at my GitHub!</h3>
+
     </Jumbotron>
   );
 };
