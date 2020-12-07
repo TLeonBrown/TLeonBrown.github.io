@@ -76,7 +76,7 @@ const manualProjects = [
     name: "New York State Census Data Dashboard",
     description: "An interactive dashboard for analyzing many different statistics and demographics, across each county in New York State.",
     url: "https://github.com/TLeonBrown/CSE-495-496-Research-Project",
-    classId: "CSE 495",
+    classId: "CSE 495 & CSE 496",
     date: "Fall 2020 - Spring 2021"
   },
   {
@@ -137,6 +137,47 @@ const skills = {
   ]
 };
 
+// ART PORTFOLIO
+const portfolio = {
+  show: true,
+  heading: "Art Portfolio",
+  projects: [
+    "The State of the Union",
+    "Worm",
+    "Hemispheres (1978), Re-Imagined",
+    "Forest Environment",
+    "Tabletop Club Branding",
+  ],
+  pdfs: [
+    require("../editable-stuff/Portfolio/Tian_Brown_Project3.pdf"),
+    require("../editable-stuff/Portfolio/Tian_Brown_Project2_All6.pdf"),
+    require("../editable-stuff/Portfolio/Tian_Brown_Project1.pdf"),
+    "https://www.youtube.com/watch?v=KgSURjOX4aI",
+    require("../editable-stuff/Portfolio/Tian_Brown_Visual_Deliverables_2.pdf"),
+  ],
+  descriptions: [
+    "Tian Brown, Fall 2020 \
+    13\" x 19\" \
+    Digital (Adobe Photoshop)",
+
+    "Tian Brown, Fall 2020 \
+    13\" x 19\" \
+    Digital (Adobe Photoshop, InDesign)",
+
+    "Tian Brown, Fall 2020 \
+    13\" x 9.45\" \
+    Digital (Adobe Illustrator, InDesign)",
+
+    "Tian Brown, Spring 2019 \
+    N/A \
+    Digital (Blender, Unreal Engine)",
+
+    "Tian Brown, Fall 2019 \
+    N/A \
+    Digital (Adobe Illustrator, InDesign)",
+  ]
+};
+
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true, // Not enabled
@@ -153,4 +194,4 @@ const contactInfo = {
   occupation: "Student at Stony Brook University"
 }
 
-export { navBar, mainBody, about, repos, manualProjects, skills, leadership, getInTouch, contactInfo };
+export { navBar, mainBody, about, repos, manualProjects, skills, portfolio, leadership, getInTouch, contactInfo };

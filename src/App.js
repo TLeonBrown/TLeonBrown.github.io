@@ -8,6 +8,7 @@ import {
   manualProjects,
   leadership,
   skills,
+  portfolio,
   getInTouch,
   contactInfo
 } from "./editable-stuff/config.js";
@@ -66,6 +67,9 @@ const Home = React.forwardRef((props, ref) => {
       )}
       {(
         <Portfolio
+          heading={portfolio.heading}
+          projects={portfolio.projects}
+          pdfs={portfolio.pdfs}
         />
       )}
     </>
