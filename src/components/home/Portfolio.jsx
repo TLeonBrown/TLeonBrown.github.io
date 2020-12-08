@@ -1,13 +1,15 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Button from "react-bootstrap/Button";
 import PortfolioCard from "./PortfolioCard";
+import Nav from "react-bootstrap/Nav";
 
+const Portfolio = ({ heading, projects, pdfs, artists, dimensions, mediums }) => {
 
-const Portfolio = ({ heading, projects, pdfs }) => {
   return (
     <Jumbotron fluid className="bg-gray m-0" id="portfolio">
-    <Container className="p-5 ">
+    <Container className="p-5">
       <h2 className="display-4 pb-5 text-center">
         {heading}
       </h2>
@@ -18,13 +20,28 @@ const Portfolio = ({ heading, projects, pdfs }) => {
       </h6>
       <br></br>
 
+      {console.log(window.location.pathname)}
+
       <div className="d-flex flex-wrap justify-content-center">
           {projects.map((project, index) => (
-            <PortfolioCard key={`${project}-${index}`} name={project} pdf={pdfs[index]} 
+            <PortfolioCard 
+              key={`${project}-${index}`} 
+              name={project} 
+              pdf={pdfs[index]} 
+              artist={artists[index]}
+              dimension={dimensions[index]}
+              medium={mediums[index]}
             />
           ))}
         </div>
+          <br></br>
         
+          <Nav.Link className="nav-link lead" href={process.env.PUBLIC_URL + "/#home"}>
+            <div style={{marginTop: "8%", marginBottom: "-5%"}} className="d-flex flex-wrap justify-content-center">
+              <Button block size="lg" >Home</Button>
+            </div>
+          </Nav.Link>
+
     </Container>
   </Jumbotron>
   );

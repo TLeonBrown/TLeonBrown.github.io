@@ -65,13 +65,6 @@ const Home = React.forwardRef((props, ref) => {
           skills={skills.skills}
         />
       )}
-      {(
-        <Portfolio
-          heading={portfolio.heading}
-          projects={portfolio.projects}
-          pdfs={portfolio.pdfs}
-        />
-      )}
     </>
   );
 });
@@ -81,10 +74,20 @@ const App = () => {
 
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
-      {navBar.show && <Navbar ref={titleRef} />}
+      {navBar.show && (window.location.pathname !== "/portfolio") && <Navbar ref={titleRef} />}
+      {console.log(window.location.pathname)}
       <Route path="/" exact component={() => <Home ref={titleRef} />} />
-      {/* {false && <Route path="/blog" exact component={Blog} />}
-      {false && <Route path="/blog/:id" component={BlogPost} />} */}
+      <Route path="/portfolio" exact component={() => 
+      <Portfolio 
+        ref={titleRef}
+        heading={portfolio.heading}
+        projects={portfolio.projects}
+        pdfs={portfolio.pdfs}
+        artists={portfolio.artists}
+        dimensions={portfolio.dimensions}
+        mediums={portfolio.mediums}
+      />
+      }/>
       <Footer>
         {getInTouch.show && (
           <GetInTouch

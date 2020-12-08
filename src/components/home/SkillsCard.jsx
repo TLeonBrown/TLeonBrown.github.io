@@ -6,7 +6,7 @@ function SkillsCard({ name, value }) {
   return (
     <Card style={{width:"12em"}} className="card shadow p-3 m-4 bg-white rounded">
       <Card.Body>
-        <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
+        <Card.Title style={{textAlign: "center"}}as="h5">{name || <Skeleton />} </Card.Title>
         {/* <hr /> */}
       </Card.Body>
     </Card>

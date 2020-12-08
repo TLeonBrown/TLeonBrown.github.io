@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
@@ -7,7 +6,6 @@ import Nav from "react-bootstrap/Nav";
 import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
 
 const Navigation = React.forwardRef((props, ref) => {
-  // const { showBlog, FirstName } = config;
   const [isTop, setIsTop] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
   const navbarMenuRef = React.useRef();
@@ -39,7 +37,7 @@ const Navigation = React.forwardRef((props, ref) => {
       }`}
       expand="lg"
     >
-      <Navbar.Brand className="brand" href={process.env.PUBLIC_URL + "/#home"}>
+      <Navbar.Brand style={{fontWeight: "bold"}} className="brand" href={process.env.PUBLIC_URL + "/#home"}>
         {`<${mainBody.firstName} />`}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
@@ -50,6 +48,7 @@ const Navigation = React.forwardRef((props, ref) => {
             href={about.resume}
             target="_blank"
             rel="noreferrer noopener"
+            style={{fontWeight: "normal"}}
           >
             Resume
           </Nav.Link>
@@ -58,6 +57,7 @@ const Navigation = React.forwardRef((props, ref) => {
             <Nav.Link
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#aboutme"}
+              style={{fontWeight: "normal"}}
             >
               About
             </Nav.Link>
@@ -67,6 +67,7 @@ const Navigation = React.forwardRef((props, ref) => {
             <Nav.Link
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#projects"}
+              style={{fontWeight: "normal"}}
             >
               Projects
             </Nav.Link>
@@ -76,6 +77,7 @@ const Navigation = React.forwardRef((props, ref) => {
             <Nav.Link
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#skills"}
+              style={{fontWeight: "normal"}}
             >
               Skills
             </Nav.Link>
@@ -83,7 +85,8 @@ const Navigation = React.forwardRef((props, ref) => {
 
           <Nav.Link
             className="nav-link lead"
-            href={process.env.PUBLIC_URL + "/#portfolio"}
+            href={process.env.PUBLIC_URL + "/portfolio"}
+            style={{fontWeight: "normal"}}
           >
             Art Portfolio
           </Nav.Link>

@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#742e12, #d28a2d, #bfbda2, #2f6c68",
+  gradientColors: "#154382, #326AAA, #91C3EA, #7EB4E6",
   firstName: "Tian",
   middleName: "",
   lastName: "Brown",
@@ -126,13 +126,12 @@ const skills = {
   show: true,
   heading: "Skills",
   skills: [
-    "JavaScript",
+    "JavaScript, HTML & CSS",
     "MERN Stack",
-    "HTML/CSS",
-    "D3",
+    "D3 Visualization Library",
     "Python & PyQtGraph",
-    "Java",
     "C",
+    "Unity & Unreal Game Engines",
     "Adobe Creative Cloud Suite"
   ]
 };
@@ -155,27 +154,27 @@ const portfolio = {
     "https://www.youtube.com/watch?v=KgSURjOX4aI",
     require("../editable-stuff/Portfolio/Tian_Brown_Visual_Deliverables_2.pdf"),
   ],
-  descriptions: [
-    "Tian Brown, Fall 2020 \
-    13\" x 19\" \
-    Digital (Adobe Photoshop)",
-
-    "Tian Brown, Fall 2020 \
-    13\" x 19\" \
-    Digital (Adobe Photoshop, InDesign)",
-
-    "Tian Brown, Fall 2020 \
-    13\" x 9.45\" \
-    Digital (Adobe Illustrator, InDesign)",
-
-    "Tian Brown, Spring 2019 \
-    N/A \
-    Digital (Blender, Unreal Engine)",
-
-    "Tian Brown, Fall 2019 \
-    N/A \
-    Digital (Adobe Illustrator, InDesign)",
-  ]
+  artists: [
+    "Tian Brown, Fall 2020",
+    "Tian Brown, Fall 2020",
+    "Tian Brown, Fall 2020",
+    "Tian Brown, Spring 2019",
+    "Tian Brown, Fall 2019"
+  ],
+  dimensions: [
+    "13\" x 19\"",
+    "13\" x 19\"",
+    "13\" x 9.45\"",
+    "N/A",
+    "N/A",
+  ],
+  mediums: [
+    "Digital (Adobe Photoshop)",
+    "Digital (Adobe Photoshop, InDesign)",
+    "Digital (Adobe Illustrator, InDesign)",
+    "Digital (Blender, Unreal Engine)",
+    "Digital (Adobe Illustrator, InDesign)",
+  ],
 };
 
 // GET IN TOUCH SECTION
