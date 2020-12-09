@@ -1,24 +1,29 @@
 {
   "files": {
     "main.css": "/static/css/main.956fad23.chunk.css",
-    "main.js": "/static/js/main.aeffb41e.chunk.js",
-    "main.js.map": "/static/js/main.aeffb41e.chunk.js.map",
+    "main.js": "/static/js/main.b56e0c55.chunk.js",
+    "main.js.map": "/static/js/main.b56e0c55.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.554504a0.js",
     "runtime-main.js.map": "/static/js/runtime-main.554504a0.js.map",
-    "static/js/2.67f14fdf.chunk.js": "/static/js/2.67f14fdf.chunk.js",
-    "static/js/2.67f14fdf.chunk.js.map": "/static/js/2.67f14fdf.chunk.js.map",
+    "static/js/2.019f9528.chunk.js": "/static/js/2.019f9528.chunk.js",
+    "static/js/2.019f9528.chunk.js.map": "/static/js/2.019f9528.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.66c399c529c513e7a4add4a23cf7e09f.js": "/precache-manifest.66c399c529c513e7a4add4a23cf7e09f.js",
+    "precache-manifest.7f82981a260cd27cc25dd03e03131ec0.js": "/precache-manifest.7f82981a260cd27cc25dd03e03131ec0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.956fad23.chunk.css.map": "/static/css/main.956fad23.chunk.css.map",
-    "static/js/2.67f14fdf.chunk.js.LICENSE.txt": "/static/js/2.67f14fdf.chunk.js.LICENSE.txt",
+    "static/js/2.019f9528.chunk.js.LICENSE.txt": "/static/js/2.019f9528.chunk.js.LICENSE.txt",
     "static/media/College Resume 2020.pdf": "/static/media/College Resume 2020.db8ffe1d.pdf",
-    "static/media/tian.jpg": "/static/media/tian.2edde864.jpg"
+    "static/media/Tabletop Club Logo.png": "/static/media/Tabletop Club Logo.ec9735fe.png",
+    "static/media/Tian_Brown_Project1.pdf": "/static/media/Tian_Brown_Project1.7ae5e68a.pdf",
+    "static/media/Tian_Brown_Project2_All6.pdf": "/static/media/Tian_Brown_Project2_All6.58ae24da.pdf",
+    "static/media/Tian_Brown_Project3.pdf": "/static/media/Tian_Brown_Project3.b0899650.pdf",
+    "static/media/Tian_Brown_Visual_Deliverables_2.pdf": "/static/media/Tian_Brown_Visual_Deliverables_2.3a79351f.pdf",
+    "static/media/meirl.jpg": "/static/media/meirl.335d494a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.554504a0.js",
-    "static/js/2.67f14fdf.chunk.js",
+    "static/js/2.019f9528.chunk.js",
     "static/css/main.956fad23.chunk.css",
-    "static/js/main.aeffb41e.chunk.js"
+    "static/js/main.b56e0c55.chunk.js"
   ]
 }
