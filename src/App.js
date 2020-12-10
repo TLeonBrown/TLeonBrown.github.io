@@ -77,7 +77,7 @@ const App = () => {
       {navBar.show && (window.location.pathname !== "/portfolio") && <Navbar ref={titleRef} />}
       {console.log(window.location.pathname)}
       <Switch>
-        <Route path="/" exact component={() => <Home ref={titleRef} />} />
+        <Route path="/" exact render={() => <Home ref={titleRef} />} />
         <Route path="/portfolio" exact render={props => 
           <Portfolio 
             ref={titleRef}
