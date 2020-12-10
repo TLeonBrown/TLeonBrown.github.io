@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import {
   navBar,
   mainBody,
@@ -76,18 +76,21 @@ const App = () => {
     <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
       {navBar.show && (window.location.pathname !== "/portfolio") && <Navbar ref={titleRef} />}
       {console.log(window.location.pathname)}
-      <Route path="/" exact component={() => <Home ref={titleRef} />} />
-      <Route path="/portfolio" exact component={() => 
-      <Portfolio 
-        ref={titleRef}
-        heading={portfolio.heading}
-        projects={portfolio.projects}
-        pdfs={portfolio.pdfs}
-        artists={portfolio.artists}
-        dimensions={portfolio.dimensions}
-        mediums={portfolio.mediums}
-      />
-      }/>
+      <Switch>
+        <Route path="/" exact component={() => <Home ref={titleRef} />} />
+        <Route path="/portfolio" exact render={props => 
+          <Portfolio 
+            ref={titleRef}
+            heading={portfolio.heading}
+            projects={portfolio.projects}
+            pdfs={portfolio.pdfs}
+            artists={portfolio.artists}
+            dimensions={portfolio.dimensions}
+            mediums={portfolio.mediums}
+          />}>
+        </Route>
+      </Switch>
+      
       <Footer>
         {getInTouch.show && (
           <GetInTouch

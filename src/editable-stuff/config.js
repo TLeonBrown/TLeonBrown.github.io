@@ -45,7 +45,7 @@ const about = {
     front-end development. \
     Outside of school, I love to make video games, compete in game tournaments, \
     running, and listening to rock music!",
-  resume: require("../editable-stuff/College Resume 2020.pdf"),
+  resume: require("../editable-stuff/College Resume 2020-M.pdf"),
 };
 
 // PROJECTS SECTION
