@@ -65,6 +65,14 @@ const Home = React.forwardRef((props, ref) => {
           skills={skills.skills}
         />
       )}
+      <Portfolio 
+            heading={portfolio.heading}
+            projects={portfolio.projects}
+            pdfs={portfolio.pdfs}
+            artists={portfolio.artists}
+            dimensions={portfolio.dimensions}
+            mediums={portfolio.mediums}
+          />
     </>
   );
 });
@@ -73,22 +81,14 @@ const App = () => {
   const titleRef = React.useRef();
 
   return (
-    <BrowserRouter >
-      {navBar.show && (window.location.pathname !== "/portfolio") && <Navbar ref={titleRef} />}
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      {/* {navBar.show && (window.location.pathname !== "/portfolio") && <Navbar ref={titleRef} />} */}
       {console.log(window.location.href)}
-      {console.log("eeeeeeeeeeee")}
       <Switch>
         <Route path="/" exact render={() => <Home ref={titleRef} />} />
-        <Link to="/tleonbrown.github.io/tleonbrown.github.io/portfolio" exact component={() => 
-          <Portfolio 
-            heading={portfolio.heading}
-            projects={portfolio.projects}
-            pdfs={portfolio.pdfs}
-            artists={portfolio.artists}
-            dimensions={portfolio.dimensions}
-            mediums={portfolio.mediums}
-          />}>
-        </Link>
+        {/* <Link to="/tleonbrown.github.io/portfolio" exact render={() =>  */}
+          
+        {/* </Link> */}
       </Switch>
       
       <Footer>
