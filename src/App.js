@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import {
   navBar,
   mainBody,
@@ -78,9 +78,8 @@ const App = () => {
       {console.log(window.location.pathname)}
       <Switch>
         <Route path="/" exact render={() => <Home ref={titleRef} />} />
-        <Route path="/portfolio" exact render={props => 
+        <Link to={"/" + process.env.PUBLIC_URL + "/portfolio"} exact component={() => 
           <Portfolio 
-            ref={titleRef}
             heading={portfolio.heading}
             projects={portfolio.projects}
             pdfs={portfolio.pdfs}
@@ -88,7 +87,7 @@ const App = () => {
             dimensions={portfolio.dimensions}
             mediums={portfolio.mediums}
           />}>
-        </Route>
+        </Link>
       </Switch>
       
       <Footer>
