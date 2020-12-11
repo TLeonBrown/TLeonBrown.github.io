@@ -73,12 +73,13 @@ const App = () => {
   const titleRef = React.useRef();
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
+    <BrowserRouter >
       {navBar.show && (window.location.pathname !== "/portfolio") && <Navbar ref={titleRef} />}
-      {console.log(window.location.pathname)}
+      {console.log(window.location.href)}
+      {console.log("eeeeeeeeeeee")}
       <Switch>
         <Route path="/" exact render={() => <Home ref={titleRef} />} />
-        <Link to={"/" + process.env.PUBLIC_URL + "/portfolio"} exact component={() => 
+        <Link to="/tleonbrown.github.io/tleonbrown.github.io/portfolio" exact component={() => 
           <Portfolio 
             heading={portfolio.heading}
             projects={portfolio.projects}

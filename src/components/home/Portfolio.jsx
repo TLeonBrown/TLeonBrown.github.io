@@ -20,7 +20,7 @@ const Portfolio = ({ heading, projects, pdfs, artists, dimensions, mediums }) =>
       </h6>
       <br></br>
 
-      {console.log(window.location.pathname)}
+      {console.log(window.location.href)}
 
       <div className="d-flex flex-wrap justify-content-center">
           {projects.map((project, index) => (
