@@ -133,7 +133,7 @@ const skills = {
     "C",
     "Unity & Unreal Game Engines",
     "Adobe Creative Cloud Suite"
-  ]
+  ],
 };
 
 // ART PORTFOLIO
@@ -149,7 +149,7 @@ const portfolio = {
   ],
   pdfs: [
     require("../editable-stuff/Portfolio/Tian_Brown_Project3.pdf"),
-    require("../editable-stuff/Portfolio/Tian_Brown_Project2_All6.pdf"),
+    require("../editable-stuff/Portfolio/Tian_Brown_Project2.pdf"),
     require("../editable-stuff/Portfolio/Tian_Brown_Project1.pdf"),
     "https://www.youtube.com/watch?v=KgSURjOX4aI",
     require("../editable-stuff/Portfolio/Tian_Brown_Visual_Deliverables_2.pdf"),
@@ -175,6 +175,13 @@ const portfolio = {
     "Digital (Blender, Unreal Engine)",
     "Digital (Adobe Illustrator, InDesign)",
   ],
+  statements: [
+    require("../editable-stuff/Portfolio/Tian_Brown_Project3_Statement.pdf"),
+    require("../editable-stuff/Portfolio/Tian_Brown_Project2_Statement.pdf"),
+    require("../editable-stuff/Portfolio/Tian_Brown_Project1_Statement.pdf"),
+    null,
+    null,
+  ]
 };
 
 // GET IN TOUCH SECTION

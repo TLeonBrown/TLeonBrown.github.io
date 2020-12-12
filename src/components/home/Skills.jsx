@@ -13,7 +13,7 @@ function Skills({ heading, skills }) {
 
         <div className="d-flex flex-wrap justify-content-center">
           {skills.map((skill, index) => (
-            <SkillsCard key={`${skill}-${index}`} name={skill} />
+            <SkillsCard key={`${skill}-${index}`} name={skill} index={index} />
           ))}
         </div>
           

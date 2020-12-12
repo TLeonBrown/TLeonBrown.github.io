@@ -1,11 +1,9 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import Button from "react-bootstrap/Button";
 import PortfolioCard from "./PortfolioCard";
-import Nav from "react-bootstrap/Nav";
 
-const Portfolio = ({ heading, projects, pdfs, artists, dimensions, mediums }) => {
+const Portfolio = ({ heading, projects, pdfs, artists, dimensions, mediums, statements }) => {
 
   return (
     <Jumbotron fluid className="bg-gray m-0" id="portfolio">
@@ -14,9 +12,9 @@ const Portfolio = ({ heading, projects, pdfs, artists, dimensions, mediums }) =>
         {heading}
       </h2>
 
-      <h5 className="text-center">Over the years, I have worked on several projects as part of my Digital Arts minor.</h5>
+      <h5 className="text-center">Over the years, I have worked on many digital art projects, as part of my minor and for my own personal enjoyment.</h5>
       <h6 className="text-center">
-        These projects were made in a variety of digital software, including Adobe Illustrator, Adobe Photoshop, Blender, and the Unreal Engine.
+        These projects were made in a variety of software, such as Adobe Illustrator, Adobe Photoshop, Blender, and the Unreal Engine.
       </h6>
       <br></br>
 
@@ -29,6 +27,7 @@ const Portfolio = ({ heading, projects, pdfs, artists, dimensions, mediums }) =>
               artist={artists[index]}
               dimension={dimensions[index]}
               medium={mediums[index]}
+              statement={statements[index]}
             />
           ))}
         </div>
