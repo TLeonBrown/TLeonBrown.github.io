@@ -85,7 +85,7 @@ const Navigation = React.forwardRef((props, ref) => {
 
           <Nav.Link
             className="nav-link lead"
-            href={process.env.PUBLIC_URL + "/portfolio"}
+            href={process.env.PUBLIC_URL + "/#portfolio"}
             style={{fontWeight: "normal"}}
           >
             Art Portfolio

@@ -20,8 +20,6 @@ const Portfolio = ({ heading, projects, pdfs, artists, dimensions, mediums }) =>
       </h6>
       <br></br>
 
-      {console.log(window.location.href)}
-
       <div className="d-flex flex-wrap justify-content-center">
           {projects.map((project, index) => (
             <PortfolioCard 
@@ -35,12 +33,6 @@ const Portfolio = ({ heading, projects, pdfs, artists, dimensions, mediums }) =>
           ))}
         </div>
           <br></br>
-        
-          <Nav.Link className="nav-link lead" href={process.env.PUBLIC_URL + "/#home"}>
-            <div style={{marginTop: "8%", marginBottom: "-5%"}} className="d-flex flex-wrap justify-content-center">
-              <Button block size="lg" >Home</Button>
-            </div>
-          </Nav.Link>
 
     </Container>
   </Jumbotron>

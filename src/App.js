@@ -82,15 +82,8 @@ const App = () => {
 
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-      {/* {navBar.show && (window.location.pathname !== "/portfolio") && <Navbar ref={titleRef} />} */}
-      {console.log(window.location.href)}
-      <Switch>
+      {navBar.show && <Navbar ref={titleRef} />}
         <Route path="/" exact render={() => <Home ref={titleRef} />} />
-        {/* <Link to="/tleonbrown.github.io/portfolio" exact render={() =>  */}
-          
-        {/* </Link> */}
-      </Switch>
-      
       <Footer>
         {getInTouch.show && (
           <GetInTouch
