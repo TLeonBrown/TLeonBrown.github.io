@@ -1,29 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.956fad23.chunk.css",
-    "main.js": "/static/js/main.413dac6d.chunk.js",
-    "main.js.map": "/static/js/main.413dac6d.chunk.js.map",
+    "main.js": "/static/js/main.7145a05b.chunk.js",
+    "main.js.map": "/static/js/main.7145a05b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.554504a0.js",
     "runtime-main.js.map": "/static/js/runtime-main.554504a0.js.map",
-    "static/js/2.dec8e1a3.chunk.js": "/static/js/2.dec8e1a3.chunk.js",
-    "static/js/2.dec8e1a3.chunk.js.map": "/static/js/2.dec8e1a3.chunk.js.map",
+    "static/js/2.c7e53b95.chunk.js": "/static/js/2.c7e53b95.chunk.js",
+    "static/js/2.c7e53b95.chunk.js.map": "/static/js/2.c7e53b95.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.aead36e369303fec7f396a3b70991e8e.js": "/precache-manifest.aead36e369303fec7f396a3b70991e8e.js",
+    "precache-manifest.fc473ba7bebdb452d2159f0d38818dde.js": "/precache-manifest.fc473ba7bebdb452d2159f0d38818dde.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.956fad23.chunk.css.map": "/static/css/main.956fad23.chunk.css.map",
-    "static/js/2.dec8e1a3.chunk.js.LICENSE.txt": "/static/js/2.dec8e1a3.chunk.js.LICENSE.txt",
+    "static/js/2.c7e53b95.chunk.js.LICENSE.txt": "/static/js/2.c7e53b95.chunk.js.LICENSE.txt",
     "static/media/College Resume 2020-M.pdf": "/static/media/College Resume 2020-M.358b296f.pdf",
     "static/media/Tabletop Club Logo.png": "/static/media/Tabletop Club Logo.ec9735fe.png",
     "static/media/Tian_Brown_Project1.pdf": "/static/media/Tian_Brown_Project1.7ae5e68a.pdf",
-    "static/media/Tian_Brown_Project2_All6.pdf": "/static/media/Tian_Brown_Project2_All6.58ae24da.pdf",
-    "static/media/Tian_Brown_Project3.pdf": "/static/media/Tian_Brown_Project3.b0899650.pdf",
+    "static/media/Tian_Brown_Project1_Statement.pdf": "/static/media/Tian_Brown_Project1_Statement.f4d04070.pdf",
+    "static/media/Tian_Brown_Project2.pdf": "/static/media/Tian_Brown_Project2.64ed731c.pdf",
+    "static/media/Tian_Brown_Project2_Statement.pdf": "/static/media/Tian_Brown_Project2_Statement.01ac502b.pdf",
+    "static/media/Tian_Brown_Project3.pdf": "/static/media/Tian_Brown_Project3.763f5b8b.pdf",
+    "static/media/Tian_Brown_Project3_Statement.pdf": "/static/media/Tian_Brown_Project3_Statement.3c9343d0.pdf",
     "static/media/Tian_Brown_Visual_Deliverables_2.pdf": "/static/media/Tian_Brown_Visual_Deliverables_2.3a79351f.pdf",
     "static/media/meirl.jpg": "/static/media/meirl.335d494a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.554504a0.js",
-    "static/js/2.dec8e1a3.chunk.js",
+    "static/js/2.c7e53b95.chunk.js",
     "static/css/main.956fad23.chunk.css",
-    "static/js/main.413dac6d.chunk.js"
+    "static/js/main.7145a05b.chunk.js"
   ]
 }
