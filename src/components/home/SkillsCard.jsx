@@ -34,8 +34,6 @@ function SkillsCard({ name, index }) {
   return (
     <Card style={{width:"12em"}} className="card shadow p-3 m-4 bg-white rounded">
       <Card.Body>
-      {console.log(icon)}
-
         <Card.Title style={{textAlign: "center"}}as="h5">{name || <Skeleton />} </Card.Title>
         <br></br>
         <h2 style={{marginTop: "-20%", textAlign: "center"}}>

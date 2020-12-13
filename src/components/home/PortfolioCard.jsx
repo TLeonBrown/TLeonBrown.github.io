@@ -4,12 +4,12 @@ import Nav from "react-bootstrap/Nav";
 
 function PortfolioCard({ name, pdf, artist, dimension, medium, statement }) {
 
-  const mouseOver = () => {
-    document.getElementById(name).style.textDecoration = "underline";
+  const mouseEnter = () => {
+    document.getElementById(name).style.color = "blue";
   }
 
   const mouseLeave = () => {
-    document.getElementById(name).style.textDecoration = "none";
+    document.getElementById(name).style.color = "black";
   }
 
   return (
@@ -21,7 +21,7 @@ function PortfolioCard({ name, pdf, artist, dimension, medium, statement }) {
             target="_blank"
             rel="noreferrer noopener"
           >
-          <Card.Title id={name} onMouseEnter={() => mouseOver()} onMouseLeave={() => mouseLeave()} style={{color: "black"}} as="h4">{name} </Card.Title>
+          <Card.Title id={name} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} style={{color: "black", textDecoration: "underline", fontWeight: "normal"}} as="h4">{name} </Card.Title>
         </Nav.Link>
         <div style={{marginLeft: "6%"}}>
           <div style={{color: "black", fontStyle: "italic"}}>{artist}</div>
