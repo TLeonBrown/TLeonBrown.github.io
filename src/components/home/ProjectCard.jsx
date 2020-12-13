@@ -17,7 +17,7 @@ const ProjectCard = ({ value }) => {
     <Col md={6}>
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
-          <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
+          <Card.Title as="h5">{name}</Card.Title>
           <Card.Text>{description || <Skeleton count={3} />} </Card.Text>
           {svn_url ? <CardButtons svn_url={svn_url} /> : <Skeleton count={2} />}
           <hr />

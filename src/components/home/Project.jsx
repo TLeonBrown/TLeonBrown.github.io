@@ -44,8 +44,6 @@ const Project = ({ heading, username, length, specfic, manualProjects }) => {
       } catch (error) {
         console.error(error.message);
       }
-      // setting projectArray
-      // TODO: remove the duplication.
       setProjectsArray(repoList);
     } catch (error) {
       console.error(error.message);
@@ -67,6 +65,7 @@ const Project = ({ heading, username, length, specfic, manualProjects }) => {
                     key={`project-card-${index}`}
                     id={`project-card-${index}`}
                     value={project}
+                    index={index}
                   />
                 ))
               : dummyProjectsArr.map((project, index) => (

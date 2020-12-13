@@ -5,7 +5,7 @@ import * as Icon from 'react-bootstrap-icons';
 
 function SkillsCard({ name, index }) {
 
-  let icon = <Icon.ArrowRight />
+  let icon = null;
 
   switch (index) {
     case 0:

@@ -50,7 +50,7 @@ const Navigation = React.forwardRef((props, ref) => {
             rel="noreferrer noopener"
             style={{fontWeight: "normal"}}
           >
-            Resume
+            Resumé
           </Nav.Link>
           
           {about.show && (

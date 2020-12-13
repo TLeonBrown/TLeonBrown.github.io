@@ -44,7 +44,7 @@ const about = {
     I am most interested in data visualization, user interface design, and \
     front-end development. \
     Outside of school, I love to make video games, compete in game tournaments, \
-    running, and listening to rock music!",
+    mix cocktails, and listen to prog rock!",
   resume: require("../editable-stuff/College Resume 2020-M.pdf"),
 };
 
@@ -67,7 +67,7 @@ const repos = {
 const manualProjects = [
   {
     name: "Waveback Music Player",
-    description: "A fully fledged music player/playlist sharing application, built with the MERN stack and the Spotify API for music playing.",
+    description: "A fully fledged playlist sharing application/music player, developed with the MERN stack and the Spotify API.",
     url: "https://github.com/CSE416-NLP/waveback",
     classId: "CSE 416",
     date: "Fall 2020"
@@ -81,7 +81,7 @@ const manualProjects = [
   },
   {
     name: "IMDb Movie Data Dashboard",
-    description: "A multifaceted dashboard for visualizing IMDb movie statistics over the span of ten years.",
+    description: "A multifaceted dashboard for visualizing a large database of IMDb movie statistics from 2006-2016.",
     url: "https://github.com/TLeonBrown/CSE-332-Dashboard-Project",
     classId: "CSE 332",
     date: "Fall 2019"
