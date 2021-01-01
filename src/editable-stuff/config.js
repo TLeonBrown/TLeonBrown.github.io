@@ -37,7 +37,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/meirl.jpg"),
+  imageLink: require("../editable-stuff/me.JPG"),
   imageSize: 375,
   message:
     " I'm currently a senior studying computer science and digital art! \
@@ -107,12 +107,6 @@ const leadership = {
       label: "SBU Tabletop Club - President", 
       paragraph: "Since August 2018, I have served as the President of the Tabletop Club, \
       Stony Brook's premier club for playing board games and tabletop RPGs!" 
-    },
-    { 
-      img: require("../editable-stuff/meirl.jpg"), 
-      label: "Stony Brook Computer Science Honors Program", 
-      paragraph: "I have been part of the Computer Science Honors program since my arrival at \
-      Stony Brook in Fall 2017, and I will be graduating with honors in Spring 2021!" 
     },
   ],
   imageSize: {
