@@ -72,6 +72,7 @@ const Home = React.forwardRef((props, ref) => {
             artists={portfolio.artists}
             dimensions={portfolio.dimensions}
             mediums={portfolio.mediums}
+            extras={portfolio.extras}
             statements={portfolio.statements}
           />
     </>

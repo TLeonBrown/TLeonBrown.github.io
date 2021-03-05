@@ -120,11 +120,11 @@ const skills = {
   show: true,
   heading: "Skills",
   skills: [
-    "JavaScript, HTML & CSS",
-    "MERN Stack",
+    "JavaScript & Typescript",
+    "React, Express, HTML & CSS",
     "D3 Visualization Library",
     "Python & PyQtGraph",
-    "C",
+    "Java & C",
     "Unity & Unreal Game Engines",
     "Adobe Creative Cloud Suite"
   ],
@@ -168,6 +168,14 @@ const portfolio = {
     "Digital (Adobe Illustrator, InDesign)",
     "Digital (Blender, Unreal Engine)",
     "Digital (Adobe Illustrator, InDesign)",
+  ],
+  extras: [
+    "Winner, 2021 Sunwood Student Art Competition",
+    "",
+    "",
+    "",
+    "",
+    "",
   ],
   statements: [
     require("../editable-stuff/Portfolio/Tian_Brown_Project3_Statement.pdf"),

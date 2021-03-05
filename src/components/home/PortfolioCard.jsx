@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Nav from "react-bootstrap/Nav";
 
-function PortfolioCard({ name, pdf, artist, dimension, medium, statement }) {
+function PortfolioCard({ name, pdf, artist, dimension, medium, extra, statement }) {
 
   const mouseEnter = () => {
     document.getElementById(name).style.color = "blue";
@@ -27,8 +27,10 @@ function PortfolioCard({ name, pdf, artist, dimension, medium, statement }) {
           <div style={{color: "black", fontStyle: "italic"}}>{artist}</div>
           <div style={{color: "black", fontStyle: "italic"}}>{dimension}</div>
           <div style={{color: "black", fontStyle: "italic"}}>{medium}</div>
+          <div style={{color: "black", fontWeight: "bold"}}>{(extra === "" ? null : extra)}</div>
         </div>
         <br></br>
+        <br style={{display: (extra === "" ? "block" : "none")}}></br>
         <Nav.Link 
             href={(statement === null) ? null : statement}
             target="_blank"

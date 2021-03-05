@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import PortfolioCard from "./PortfolioCard";
 
-const Portfolio = ({ heading, projects, pdfs, artists, dimensions, mediums, statements }) => {
+const Portfolio = ({ heading, projects, pdfs, artists, dimensions, mediums, extras, statements }) => {
 
   return (
     <Jumbotron fluid className="bg-gray m-0" id="portfolio">
@@ -27,6 +27,7 @@ const Portfolio = ({ heading, projects, pdfs, artists, dimensions, mediums, stat
               artist={artists[index]}
               dimension={dimensions[index]}
               medium={mediums[index]}
+              extra={extras[index]}
               statement={statements[index]}
             />
           ))}
