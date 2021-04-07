@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Tian",
   middleName: "",
   lastName: "Brown",
-  message: "Senior at Stony Brook University",
+  message: "Graduating Senior at Stony Brook University",
   icons: [
     {
       image: "fa-github",
@@ -42,10 +42,10 @@ const about = {
   message:
     " I'm currently a senior studying computer science and digital art! \
     I am most interested in data visualization, user interface design, and \
-    front-end development. \
-    Outside of school, I love to make video games, compete in game tournaments, \
-    mix cocktails, and listen to prog rock!",
-  resume: require("../editable-stuff/College Resume 2020-M.pdf"),
+    front-end/web development. \
+    Outside of school, I love working on multimedia projects, mixing \
+    cocktails, running, and listening to prog rock!",
+  resume: require("../editable-stuff/Resume 2021 (4-7).pdf"),
 };
 
 // PROJECTS SECTION
