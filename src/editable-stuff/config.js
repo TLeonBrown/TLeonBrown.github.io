@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Tian",
   middleName: "",
   lastName: "Brown",
-  message: "Graduating Senior at Stony Brook University",
+  message: "Welcome to my page!",
   icons: [
     {
       image: "fa-github",
@@ -40,12 +40,13 @@ const about = {
   imageLink: require("../editable-stuff/me.JPG"),
   imageSize: 375,
   message:
-    " I'm currently a senior studying computer science and digital art! \
-    I am most interested in data visualization, user interface design, and \
+    " I'm currently working as a UI/Frontend Developer at Spheryx, \
+    a small Manhattan-based startup! \
+    My work-related passions are in user interface design and \
     front-end/web development. \
-    Outside of school, I love working on multimedia projects, mixing \
-    cocktails, running, and listening to prog rock!",
-  resume: require("../editable-stuff/Resume 2021 (4-7).pdf"),
+    In my free time, I love working on multimedia projects, mixing \
+    cocktails, running, and listening to rock music!",
+  resume: require("../editable-stuff/Resume 2021 (5-26).pdf"),
 };
 
 // PROJECTS SECTION
@@ -69,29 +70,25 @@ const manualProjects = [
     name: "Waveback Music Player",
     description: "A fully fledged playlist sharing application/music player, developed with the MERN stack and the Spotify API.",
     url: "https://github.com/CSE416-NLP/waveback",
-    classId: "CSE 416",
     date: "Fall 2020"
   },
   {
     name: "New York State Census Data Dashboard",
     description: "An interactive dashboard for analyzing many different statistics and demographics, across each county in New York State.",
     url: "https://github.com/TLeonBrown/CSE-495-496-Research-Project",
-    classId: "CSE 495 & CSE 496",
     date: "Fall 2020 - Spring 2021"
+  },
+  {
+    name: "Twin",
+    description: "A TypeScript puzzle platformer game inspired by classic flash games such as FireBoy & LavaGirl. Winner of the 2021 SBU Game Programming Competition!",
+    url: "https://twin-game.web.app/",
+    date: "Spring 2021"
   },
   {
     name: "IMDb Movie Data Dashboard",
     description: "A multifaceted dashboard for visualizing a large database of IMDb movie statistics from 2006-2016.",
     url: "https://github.com/TLeonBrown/CSE-332-Dashboard-Project",
-    classId: "CSE 332",
     date: "Fall 2019"
-  },
-  {
-    name: "GDStep",
-    description: "A rhythm-based music game, created from scratch with Python in the Godot Engine.",
-    url: "https://github.com/TLeonBrown/GDstep",
-    classId: "Personal Project",
-    date: "Summer 2020"
   },
 ];
 
@@ -199,7 +196,7 @@ const contactInfo = {
   phone: "+1 (914) - 233 - 4840",
   location: "New Rochelle, NY",
   locationLink: "https://www.openstreetmap.org/#map=12/40.9301/-73.8168",
-  occupation: "Student at Stony Brook University"
+  occupation: "UI Developer at Spheryx, Inc."
 }
 
 export { navBar, mainBody, about, repos, manualProjects, skills, portfolio, leadership, getInTouch, contactInfo };

@@ -23,10 +23,10 @@ function ManualCard({ value, index }) {
       icon = <Icon.PieChartFill />
       break;
     case 2:
-      icon = <Icon.DisplayFill />
+      icon = <Icon.Controller />
       break;
     case 3:
-      icon = <Icon.Controller />
+      icon = <Icon.DisplayFill />
       break;
   }
   
@@ -52,7 +52,7 @@ function ManualCard({ value, index }) {
           <hr />
           {value ? (
             <p className="card-text">
-            <small className="text-muted">From {classId}, {date}</small>
+            <small className="text-muted">{date}</small>
           </p>
           ) : (
             <Skeleton />
